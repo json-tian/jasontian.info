@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+	<meta charset="utf-8">
+	<title>Jason Tian</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="Style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#menu">
+
+	<button href="#home" id="myBtn" title="Back to Top">Top</button>
+	<script src="top.js"></script>
+
+	<div id="home">
+		<!--Navigation-->
+		<nav class="navbar navbar-dark navbar-expand-md fixed-top">
+			<!--bootstrap tag "container-fluid" to take up entire space-->
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#home">
+					<img src="img/me.png">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#about">
+								<b>About</b>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolio">
+								<b>Portfolio</b>
+							</a>
+						</li>
+						<!--<li class="nav-item">
+							<a class="nav-link" href="#">
+								<b>Blog</b>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<b>Contact</b>
+							</a>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="landing">
+			<div class="home-wrap">
+				<div class="home-inner">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="Intro">
+		<div class="caption center-block text-center">
+			<h2>Hello! I'm Jason.</h2>
+			<h3>Developer | Chess Enthusiast | Blogger</h3>
+			<div class="linkslight">
+				<a href="https://github.com/tianjason6" class="fa fa-github fa-3x"></a>
+				<a href="https://www.linkedin.com/in/jasontian6/" class="fa fa-linkedin fa-3x"></a>
+				<a href="https://www.chess.com/member/knightsoul1" class="fas fa-chess-pawn fa-3x"></a>
+			</div>
+			<br>
+		</div>
+	</div>
+
+	<div id="about">
+		<div class="jumbotron">
+			<h3 class="heading">About Me</h3>
+			<div class="content edgepadding">
+				<p>I am a CMS student at the University of Toronto.</p>
+				<br>
+				<p>I have gotten my feet wet with several different languages and technologies but I am most familiar with Java, Python,
+					and Android development.
+				</p>
+				<br>
+				<p>Other than that, I spend a lot of my free time playing chess online.</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="portfolio">
+		<div class="jumbotron">
+			<h3 class="heading">Projects</h3>
+			<div class="row padding edgepadding">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<div class="card text-center">
+						<!--<img class="card-img-top" src="img/projects/chessclock.png">-->
+						<div class="card-body">
+							<h4>Chess Clock Pro</h4>
+							<p>Tired of using a physical chess clock? This Android application keeps track of time in a chess game.</p>
+							<div class="links">
+								<a href="https://github.com/tianjason6/Chess-Clock-Pro" class="fa fa-github fa-2x"></a>
+								<a href="https://play.google.com/store/apps/details?id=knightsoul.chessclockv2" class="fas fa fa-android fa-2x"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<div class="card text-center">
+						<div class="card-body">
+							<h4>Space Kittens</h4>
+							<p>A retro chain reaction video game created for Android devices.</p>
+							<div class="links">
+								<a href="https://github.com/tianjason6/Space-Kittens" class="fa fa-github fa-2x"></a>
+								<a href="https://play.google.com/store/apps/details?id=knightsoul.SpaceKittens" class="fas fa fa-android fa-2x"></a>
+								<a href="https://www.youtube.com/watch?v=vsSWs31ec9c" class="fas fa fa-youtube fa-2x"></a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<div class="card text-center">
+						<div class="card-body">
+							<h4>Frogger AI</h4>
+							<p>The original Frogger game - but you are not playing! Watch the AI dodge cars and hop over turtles!</p>
+							<div class="links">
+								<a href="https://github.com/tianjason6/Frogger-AI" class="fa fa-github fa-2x"></a>
+								<a href="https://www.youtube.com/watch?v=LAqr7cBbOks&t=3s" class="fas fa fa-youtube fa-2x"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--- Script Source Files -->
+	<script src="jquery.min.js"></script>
+	<script src="scroll.js"></script>
+</body>
+
+</html>
